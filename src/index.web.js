@@ -1,6 +1,5 @@
 import { Component, createElement } from "react";
-
-import Portal from "./Portal";
+import { Portal } from 'react-portal';
 
 export default class Modal extends Component {
   static displayName = "Modal";
